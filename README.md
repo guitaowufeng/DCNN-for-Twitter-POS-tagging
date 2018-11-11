@@ -2,7 +2,7 @@
 
 TensorFlow implementation of [Transferring from Formal Newswire Domain with Hypernet for Twitter POS Tagging](http://aclweb.org/anthology/D18-1275). 
 
-![compgraph](./img/model.pdf)
+![compgraph](./img/model4.jpg)
 
 The code is partially referred to https://github.com/guitaowufeng/TPANN and https://github.com/hardmaru/supercell/blob/master/supercell.py
 
