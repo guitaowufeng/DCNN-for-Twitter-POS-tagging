@@ -243,7 +243,6 @@ def main():
                     avg_dev_loss.append(loss)
                 file.close()
 
-                print('the %d validation epoch of average loss is:%f' % (i_train, sum(avg_dev_loss) / len(avg_dev_loss)))
                 print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@the true accuracy of %d validatoin epoch is %f:' % (
                     i_train, (2242 - error_num) / 2242))
 
@@ -333,7 +332,6 @@ def main():
                     avg_test_loss.append(loss)
 
                 file.close()
-                print('the %d testing epoch of average loss is:%f' % (i_train, sum(avg_test_loss) / len(avg_test_loss)))
                 print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@the true accuracy of %d testing epoch is %f:' % (i_train, (2291-error_num) / 2291))
 
         saver = tf.train.Saver()
